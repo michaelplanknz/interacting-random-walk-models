@@ -8,8 +8,13 @@ The /Matlab/ folder contains Matlab code to reproduce the results on the spatial
 
 # How to use this repository
 
-To reproduce the results on the spatial logistic model, run the Matlab script *main.m*. This runs simulations of the ABM and solves the spatial moment dynamics equation for $u_2(\xi,t)$ described in Box 4 of the paper, as well as the mean-field model (which is the logisitc growth equation). The spatial moments solution is calculated numerically by discretising the integro-differential equation for $u_2(\xi,t)$ onto a two-dimensional grid of values for $\xi$. The third moment is approximated using the 4/1/1 power-2 closure. Note that the equation for the first moment $u_1(t)$ is not solved explicitly; instead $u_1(t)$ is calculated from the solution for $u_2(\xi,t)$ in the limit of large $|\xi|$.  The pair correlation function is computed empirically from the ABM and from the spatial moments solution via $g(\xi) = u_2(\xi)/u_1^2$.
+To reproduce the results on the spatial logistic model, navigate to the /Matlab/ folder and run the Matlab script *main.m*. This runs simulations of the ABM and solves the spatial moment dynamics equation for $u_2(\xi,t)$ described in Box 4 of the paper, as well as the mean-field model (which is the logisitc growth equation). 
 
+The spatial moments solution is calculated numerically by discretising the integro-differential equation for $u_2(\xi,t)$ onto a two-dimensional grid of values for $\xi$. The third moment is approximated using the 4/1/1 power-2 closure. Note that the equation for the first moment $u_1(t)$ is not solved explicitly; instead $u_1(t)$ is calculated from the solution for $u_2(\xi,t)$ in the limit of large $|\xi|$.  
+
+The pair correlation function is computed empirically from the ABM and from the spatial moments solution via $g(\xi) = u_2(\xi)/u_1^2$.
+
+Results are plotted and saved as a .png graphic with filename *slm.png*.
 
 
 
