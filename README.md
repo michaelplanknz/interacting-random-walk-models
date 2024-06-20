@@ -1,6 +1,6 @@
 # Random walk models in the life sciences: including local interactions
 
-Code for example results shown in review article "Random walk models in the life sciences: including local interactions" by XYZ.
+Code for example results shown in review article "Random walk models in the life sciences: including local interactions" by Plank, Simpson & Baker.
 
 The /Julia/ folder contains Julia code to reproduce the results on lattice-based models shown in Figures 1 and 2.
 
