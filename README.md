@@ -1,12 +1,18 @@
-# Random walk models in the life sciences: including local interactions
+# Random walk models in the life sciences: including births, deaths and local interactions
 
-Code for example results shown in review article "Random walk models in the life sciences: including local interactions" by Plank, Simpson & Baker.
+Code for example results shown in review article [Random walk models in the life sciences: including births, deaths and local interactions](https://doi.org/10.1098/rsif.2024.0422) by Plank, Simpson & Baker.
+
+A preprint of the article is available [here](https://arxiv.org/abs/2411.10972).
+
+The final version of the article will be published in Interface [here](https://doi.org/10.1098/rsif.2024.0422).
+
+## Structure of this repository
 
 The /Julia/ folder contains Julia code to reproduce the results on lattice-based models shown in Figures 1 and 2.
 
 The /Matlab/ folder contains Matlab code to reproduce the results on the spatial logistic model shown in Figure 4. 
 
-# How to use this repository
+## How to use this repository
 
 To reproduce the results on the spatial logistic model, navigate to the /Matlab/ folder and run the Matlab script *main.m*. This runs simulations of the ABM and solves the spatial moment dynamics equation for $u_2(\xi,t)$ described in Box 4 of the paper, as well as the mean-field model (which is the logisitc growth equation). 
 
